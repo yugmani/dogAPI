@@ -1,0 +1,91 @@
+/* START CSS RESET */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* END CSS RESET */
+
+h1,h2{
+  font-family: 'Indie Flower', cursive;
+}
+
+h1{
+  margin-top:20px;
+}
+
+h2{
+  margin-top:30px;
+}
+
+#randomImageContainer, #listImageContainer{
+  width:100%;
+  min-height: 300px;
+}
+
+#randomImageContainer{
+  margin-top: 20px;
+  background-color:#fff;
+}
+
+button{
+  margin-top:30px;
+  text-align:center;
+}
+
+.alert{
+  display:none;
+}
+
+img{
+  max-height:300px;
+}
+
+#listImageContainer{
+  margin-top:30px;
+}
+
+
+#dogInfo{
+  text-align:left;
+  margin-top:35px;
+}
+
+.form-control{
+  font-size:1.2em;
+}
+
+.container-fluid{
+  background:#efefef;
+  margin-top:30px;
+  padding-bottom:30px;
+}
+
+.container-fluid:last-of-type{
+  background:#fff;
+  padding-bottom:30px;
+}
+
+.container, .card-deck{
+  margin-top:30px;
+}
